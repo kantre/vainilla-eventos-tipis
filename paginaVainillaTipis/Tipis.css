@@ -1,0 +1,179 @@
+  @import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@300;400;600;700&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   background-color: blanchedalmond;
+}
+
+.header {
+    text-align: center;
+    padding: 5px;
+    background-color: rgb(24, 24, 24);
+ 
+}
+
+.titulo {
+    font-size: 2em;
+    padding: 5rem;
+    background-image: url(assets/Imagen\ de\ WhatsApp\ 2024-01-18\ a\ las\ 21.25.38_568c63da.jpg);
+    background-size: cover;
+    background-position:  center;
+    text-align:left;
+    text-shadow: rgb(25, 24, 24) 3px 3px 3px ;
+    color: rgb(255, 255, 255);
+}
+
+.nav {
+    margin: 0%;;
+    padding: 2rem;
+    box-shadow: 5px 5px 5px 15px  rgb(24, 24, 24);
+}
+
+.nav-link {
+    color:aliceblue;
+    text-decoration: none;
+    margin-left: 5px;
+    padding:1rem;
+    border-radius: 2rem;
+    transition:  .7s;
+} 
+
+.nav-link:hover {
+    background-color: aliceblue;
+    color:black;
+}
+
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.descripcion {
+    background-color: #edecec;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;;
+    font-size: 19px;
+    box-shadow: 5px 5px 25px #646464;
+}
+
+.caja {
+    width: 350px; /* Ancho deseado para el div */
+    height: 640px; /*Alto deseado para el div */
+    overflow: hidden; /*para que no sobresalga del div la imagen */
+    margin: 1rem;
+    padding: 20px;
+    background-color:rgb(211, 187, 177);
+    box-shadow: 5px 5px 25px  #646464;
+    border-radius:1rem;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #edecec;
+}
+
+.imagenes {
+    width: 100%; /* Hace que la imagen ocupe el ancho completo del div */
+    height: auto; /* Mantiene la proporción de la imagen */
+    display: block; /* Evita espacios extra entre la imagen y el div */
+}
+
+.lista {
+    margin-bottom: 2rem;
+    padding: 2rem;
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+}
+
+.precio {
+    border-style: none;
+    border-radius: 2rem;
+    margin-top: 1em;
+    margin-left: 8rem ;
+    padding: 1rem;
+    background-color: rgb(59, 202, 59);
+}
+
+.TituloPaquete {
+    margin: 1.3rem;
+    text-align: center;
+}
+
+
+.form-container {
+    width: 450px; /* Hace que la imagen ocupe el ancho completo del div */
+    height: auto; /* Mantiene la proporción de la imagen */
+    display: block; /* Evita espacios extra entre la imagen y el div */
+    flex-wrap: wrap ;
+    margin: 1rem;
+    padding: 20px;
+    background-color: #edecec;
+    box-shadow: 5px 5px 25px  #646464;
+    border-radius:1rem;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-top: 10px;
+    color: #555;
+  }
+  
+  input,
+  textarea {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  fieldset {
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 0.5rem;
+  }
+
+  legend {
+    font-size: 2rem;
+  }
+
+.botonEnviar {
+    background-color: green;
+    color:#edecec;
+}
+
+.botonEnviar:hover {
+    background-color: rgb(59, 202, 59);
+    color:black;
+}
+
+.footer {
+    background-color:burlywood;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.linkFotter {
+    color: black;
+    font-size: 1.5rem;
+    margin: 0 10px;
+    text-decoration: none;
+}

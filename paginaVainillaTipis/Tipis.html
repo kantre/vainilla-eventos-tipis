@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Tipis.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vainilla-Tipis</title>
+</head>
+<body>
+    <header class="header">
+        <h1 class="titulo">PIJAMA PARTY</h1>
+         <nav class="nav">
+            <a href="Galeria.html" class="nav-link">Galeria</a>
+            <a href="Formulario.html" class="nav-link">Pedido</a>
+            <a href="#" class="nav-link">Pijama Party</a>
+         
+            
+         </nav>
+    </header>
+    <contain class="contenedor">
+              <div class="info">
+                <aside class="descripcion">
+                        <p>
+                           ¡IMPORTANTE!
+                        </p>
+                        <p>
+                            Actualmente trabajamos con grupos reducidos (se puede expandir hasta 12 chicos), a partir de 5 años y estan apuntados a grupos de solo nenas.<br>
+                            Para eventos nocturnos (Pijamadas).
+                        </p>
+                        <p>
+                            Para eventos diaurnos (Cumpleaños).
+                        </p>
+                        <p>
+                            Para sector fotografico.
+                        </p>
+                </aside>
+                    <div class="caja">
+                       <img src="assets/Imagen de WhatsApp 2024-01-18 a las 21.25.36_2d279cbc.jpg" class="imagenes">
+                        <h2 class="TituloPaquete">Pijamada individual</h2>
+                            <ul class="lista"></ul>                     
+                                <li>Incluye:</li>
+                                <li>1 carpa</li>
+                                <li>Almohadas decorativas</li>
+                                <li>guirnaldas</li>                        
+                            </ul>
+                            <button type="button" class="precio">$8.000</button>
+                    </div>
+                    <div class="caja">
+                        <img src="assets/Imagen de WhatsApp 2024-01-18 a las 21.25.35_5d1f2798.jpg" class="imagenes">
+                        <h2 class="TituloPaquete">Pijamada Princess</h2>
+                            <ul class="lista">         
+                                <li>Incluye:</li>
+                                <li>6 carpas (dos niños por carpas)</li>
+                                <li>Colchones, almohadas</li>
+                                <li>Almohadones decorativos</li>
+                                <li>Mantas, guirnaldas, fogata</li>
+                                <li>Luces, cartel cinema</li>                       
+                            </ul>
+                            <button type="button" class="precio">$60.000</button>
+                    </div>
+                    <div class="caja">
+                        <img src="assets/Imagen de WhatsApp 2024-01-18 a las 21.25.38_6f59b610.jpg" class="imagenes">
+                        <h2 class="TituloPaquete">Pijamada Queen</h2>
+                            <ul class="lista">            
+                                <li>Incluye:</li>
+                                <li>6 carpas (2 niños por carpa)</li>
+                                <li>Colchonetas, almohadas</li>
+                                <li>Almohadones decorativos</li>
+                                <li>Mantas, guirnaldas, fogata</li>
+                                <li>Luces, cartel cinema, bandeja + desayuno sorpresa</li> 
+                            </ul>
+                            <button type="button" class="precio">$90.000</button>
+                    </div>
+              </div>
+              <div class="form-container">
+                <h2>Formulario Tipis</h2>
+                <form name="formulario-tipis" netlify>
+                  <fieldset>
+                    <legend>Seleccione una opcion</legend>
+                    <label><input type="radio" name="Pijamada individual" value="Pijmada individual">Pijamada individual</label>
+                    <label><input type="radio" name="Pijamada princess" value="Pijamada princess">Pijamada princess</label>
+                    <label><input type="radio" name="Pijamada queen" value="Pijamada queen">Pijamada queen</label>
+                  </fieldset>
+                  <label for="nombre">Nombre:</label>
+                  <input type="text" id="nombre" name="name" required>
+                  <label for="email">Correo electrónico:</label>
+                  <input type="email" id="email" name="email" required>
+                  <label for="mensaje">Mensaje:</label>
+                  <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                  <input class="botonEnviar" type="submit" value="enviar" onclick="EnviarFormulario()">
+                </form>
+              </div>
+    </contain>
+    <footer class="footer">
+        <img src="assets/logoInstagram.svg" class="icono">
+        <a href="https://www.instagram.com/vainillapijama_party/" class="linkFotter">Instagram</a>
+        <img src="assets/LogoWhatsapp.svg" alt="">
+        <a href="https://web.whatsapp.com/" class="linkFotter">3482-592586</a>
+    </footer>
+      <script src="estilo.js"></script>
+</body>
+</html>

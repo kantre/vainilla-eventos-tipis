@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+    body {
+         font-size: 14px; /* Tamaño ajustado para dispositivos móviles */
+         font-family: Arial, sans-serif;
+         margin: 0;
+         padding: 0;
+         box-sizing: border-box;
+         background-color: blanchedalmond;
+    }
+
+
+.header {
+    text-align: center;
+    padding: 5px;
+    background-color: rgb(24, 24, 24);
+}
+
+.titulo {
+    font-size: 2em;
+    padding: 5rem;
+    background-image: url(assets/Imagen\ de\ WhatsApp\ 2024-01-18\ a\ las\ 19.55.52_884c1063.jpg);
+    background-size: cover;
+    background-position:  center;
+}
+
+.nav {
+    margin-bottom: 1rem;
+    padding: 2rem;
+    gap: 2px;
+    box-shadow: 5px 5px 5px 15px  rgb(24, 24, 24);
+}
+
+.nav-link {
+    color:aliceblue;
+    text-decoration: none;
+    padding:1rem;
+    border-radius: 2rem;
+    transition:  .7s;
+} 
+
+.nav-link:hover {
+    background-color: aliceblue;
+    color:black;
+}
+
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.descripcion {
+    background-color: rgb(211, 187, 177);
+    box-shadow: 5px 5px 25px #646464;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #edecec;
+    font-size: 19px;
+}
+
+
+.footer {
+    background-color: rgb(211, 178, 164);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.linkFotter {
+    color: black;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.caja {
+    width: 400px; /* Ancho deseado para el div */
+    height: 600px; /*Alto deseado para el div */
+    overflow: hidden; /*para que no sobresalga del div la imagen */
+    margin: 1rem;
+    background-color: rgb(211, 187, 177);
+    border-radius: 3rem;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #edecec;
+}
+
+.imagenes {
+    width: 100%; /* Hace que la imagen ocupe el ancho completo del div */
+    height: auto; /* Mantiene la proporción de la imagen */
+    display: block; /* Evita espacios extra entre la imagen y el div */
+}
